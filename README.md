@@ -122,7 +122,7 @@ Compose Column 예제
 
 ![Compose Box with Constraints 예](./screenshots/box-with-constraints.png)
 
-Compose ColuBox with Constraints 예제
+Compose Box with Constraints 예제
 
  * 스텝 1: Inner 인자로 modifier를 전달해봅시다. 기본 값을 Modifier로 지정합시다.
   파라미터로 받은 modifier를 BoxWithConstrains에 전달합시다.
