@@ -103,3 +103,15 @@ Compose Row 예제
    각 항목의 weight 값을 바꾸어 보세요.
  * 스텝 5: Text 대신 Icon을 하나 넣어봅시다.
 
+## Compose Column 예제 (part4-chapter3-8)
+
+[part4-chapter3-8](part4-chapter3-8) 디렉토리를 Android Studio에서 오픈하세요.
+
+![Compose Column 예](./screenshots/column.png)
+
+Compose Column 예제
+
+
+ * 스텝 1: horizontalAlignment를 Column에 적용해봅시다.
+ * 스텝 2: Column에 verticalArrangement를 지정해봅시다. SpaceAround, SpaceEvenly, SpaceBetween도 해봅시다.
+ * 스텝 3: Text에 Modifier.align을 사용해 봅시다.
