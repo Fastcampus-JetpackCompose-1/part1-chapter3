@@ -6,7 +6,7 @@ Part4 Chapter3의 예제와 실습을 모두 담고 있습니다.
 
 ## Compose Text 실습코드 (part4-chapter3-2)
 
-[part4-chapter3-2](par4t-chapter3-2) 디렉토리를 Android Studio에서 오픈하세요.
+[part4-chapter3-2](part4-chapter3-2) 디렉토리를 Android Studio에서 오픈하세요.
 
 ![Compose Text 예](./screenshots/text.png)
 
@@ -24,7 +24,7 @@ Compose Text 실습코드
 
 ## Compose Button 예제 (part4-chapter3-3)
 
-[part4-chapter3-3](par4t-chapter3-3) 디렉토리를 Android Studio에서 오픈하세요.
+[part4-chapter3-3](part4-chapter3-3) 디렉토리를 Android Studio에서 오픈하세요.
 
 ![Compose Button 예](./screenshots/button.png)
 
@@ -40,7 +40,7 @@ Compose Button 예제
 
 ## Compose Modifier 예제 (part4-chapter3-4)
 
-[part4-chapter3-4](par4t-chapter3-4) 디렉토리를 Android Studio에서 오픈하세요.
+[part4-chapter3-4](part4-chapter3-4) 디렉토리를 Android Studio에서 오픈하세요.
 
 ![Compose Modifier 예](./screenshots/modifier.png)
 
@@ -58,7 +58,7 @@ Compose Modifier 예제
 
 ## Compose Surface 예제 (part4-chapter3-5)
 
-[part4-chapter3-5](par4t-chapter3-5) 디렉토리를 Android Studio에서 오픈하세요.
+[part4-chapter3-5](part4-chapter3-5) 디렉토리를 Android Studio에서 오픈하세요.
 
 ![Compose Surface 예](./screenshots/surface.png)
 
@@ -75,7 +75,7 @@ contentColor가 자동으로 선택됩니다.
 
 ## Compose Box 예제 (part4-chapter3-6)
 
-[part4-chapter3-6](par4t-chapter3-6) 디렉토리를 Android Studio에서 오픈하세요.
+[part4-chapter3-6](part4-chapter3-6) 디렉토리를 Android Studio에서 오픈하세요.
 
 ![Compose Box 예](./screenshots/box.png)
 
@@ -89,7 +89,7 @@ Compose Box 예제
 
 ## Compose Row 예제 (part4-chapter3-7)
 
-[part4-chapter3-7](par4t-chapter3-7) 디렉토리를 Android Studio에서 오픈하세요.
+[part4-chapter3-7](part4-chapter3-7) 디렉토리를 Android Studio에서 오픈하세요.
 
 ![Compose Row 예](./screenshots/row.png)
 
