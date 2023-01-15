@@ -103,4 +103,3 @@ Compose Row 예제
    각 항목의 weight 값을 바꾸어 보세요.
  * 스텝 5: Text 대신 Icon을 하나 넣어봅시다.
 
-[최종본](https://github.com/Fastcampus-Android-Lecture-Project-2023/part4-chapter3-7/tree/final)과 비교해보세요.
