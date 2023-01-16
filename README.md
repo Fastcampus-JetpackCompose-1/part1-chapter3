@@ -140,3 +140,20 @@ Compose Image 예제
  * 스텝 1: Image를 만들어봅시다. painter 항목에 painterResource(id = R.drawable.wall)
 contentDescription에 엔텔로프 캐년이라고 넣읍시다.
  * 스텝 2: 두 번째 Image를 만들어봅시다. imageVector에 Icons.Filled.Settings를 설정해봅시다.
+
+## Compose Coil 예제 (part4-chapter3-11)
+
+[part4-chapter3-11](part4-chapter3-11) 디렉토리를 Android Studio에서 오픈하세요.
+
+![Compose Coil 예](./screenshots/coil.png)
+
+스텝 1: coil 의존성을 추가합니다.
+ * 'io.coil-kt:coil:2.2.2' 의존성을 추가합니다.
+ * 'io.coil-kt:coil-compose:2.2.2' 의존성도 추가합니다.
+
+스텝 2: uses-permission에 android.permission.INTERNET를 추가합니다.
+
+스텝 3: rememberImagePainter를 이용해 Image의 painter를 설정합니다. (Compose 한국어 문서의 추천, but Deprecated)
+이미지 URI: https://raw.githubusercontent.com/Fastcampus-Android-Lecture-Project-2023/part4-chapter3/main/part-chapter3-10/app/src/main/res/drawable-hdpi/wall.jpg
+
+스텝 4: AsyncImage를 이용해봅니다. model에 주소를 적으면 됩니다.
