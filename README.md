@@ -111,7 +111,6 @@ Compose Row 예제
 
 Compose Column 예제
 
-
  * 스텝 1: horizontalAlignment를 Column에 적용해봅시다.
  * 스텝 2: Column에 verticalArrangement를 지정해봅시다. SpaceAround, SpaceEvenly, SpaceBetween도 해봅시다.
  * 스텝 3: Text에 Modifier.align을 사용해 봅시다.
@@ -129,3 +128,15 @@ Compose Box with Constraints 예제
  * 스텝 2: Inner의 인자로 Modifier.widthIn(min = 100.dp)를 전달해봅시다. heightIn도 전달해봅시다. 각각 인자의 max값도 전달해봅시다.
  * 스텝 3: maxHeight 값이 150dp가 넘을 때만 추가로 텍스트를 출력해봅시다.
  * 스텝 4: Column에 width를 지정해서 제한해 봅시다.
+
+## Compose Image 예제 (part4-chapter3-10)
+
+[part4-chapter3-10](part4-chapter3-10) 디렉토리를 Android Studio에서 오픈하세요.
+
+![Compose Image 예](./screenshots/image.png)
+
+Compose Image 예제
+
+ * 스텝 1: Image를 만들어봅시다. painter 항목에 painterResource(id = R.drawable.wall)
+contentDescription에 엔텔로프 캐년이라고 넣읍시다.
+ * 스텝 2: 두 번째 Image를 만들어봅시다. imageVector에 Icons.Filled.Settings를 설정해봅시다.
