@@ -25,7 +25,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun CheckBoxEx() {
     Row(verticalAlignment = Alignment.CenterVertically) {
-        var checkboxChecked by remember { mutableStateOf(false) }
         // 스텝 1: Checkbox를 만들어봅시다. checked 속성은 false
         // onCheckedChange는 비워둡시다.
 
