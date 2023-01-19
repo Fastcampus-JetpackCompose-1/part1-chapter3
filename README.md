@@ -169,3 +169,15 @@ contentDescription에 엔텔로프 캐년이라고 넣읍시다.
  * 스텝 3: boolean 대신 `remember { mutableStateOf(false) }`를 사용하여 상태를 도입합시다. (value 프로퍼티를 이용해야 합니다.)
  * 스텝 4: delegated properties로 변경해봅시다.
  * 스텝 5: destruction으로 상태를 받아서 사용해봅시다.
+
+ ## Compose TextField 예제 (part4-chapter3-14)
+
+[part4-chapter3-14](part4-chapter3-14) 디렉토리를 Android Studio에서 오픈하세요.
+
+![Compose Field 예](./screenshots/textfield.png)
+
+ * 스텝 1: TextField를 Text위에 만듭니다. value와 onValueChanged는 비워둡시다.
+ * 스텝 2: Text에 Android 대신 TextField 입력을 출력하게 합시다. mutableStateOf("") 필드를 하나 만듭시다.
+ * 스텝 3: TextField에 label을 추가합시다.내용에는 `Text("Name")`을 채워봅시다.
+ * 스텝 4: TextField와 Text 사이에 Spacer를 넣어 8.dp 간격을 줍시다.
+ * 스텝 5: TextField를 OutlinedTextField로 변경해봅시다.
