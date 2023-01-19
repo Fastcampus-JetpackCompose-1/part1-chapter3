@@ -170,7 +170,7 @@ contentDescription에 엔텔로프 캐년이라고 넣읍시다.
  * 스텝 4: delegated properties로 변경해봅시다.
  * 스텝 5: destruction으로 상태를 받아서 사용해봅시다.
 
- ## Compose TextField 예제 (part4-chapter3-14)
+## Compose TextField 예제 (part4-chapter3-14)
 
 [part4-chapter3-14](part4-chapter3-14) 디렉토리를 Android Studio에서 오픈하세요.
 
@@ -181,3 +181,16 @@ contentDescription에 엔텔로프 캐년이라고 넣읍시다.
  * 스텝 3: TextField에 label을 추가합시다.내용에는 `Text("Name")`을 채워봅시다.
  * 스텝 4: TextField와 Text 사이에 Spacer를 넣어 8.dp 간격을 줍시다.
  * 스텝 5: TextField를 OutlinedTextField로 변경해봅시다.
+
+## Compose TopAppBar 예제 (part4-chapter3-15)
+
+[part4-chapter3-15](part4-chapter3-15) 디렉토리를 Android Studio에서 오픈하세요.
+
+![Compose TopAppBar 예](./screenshots/topappbar.png)
+
+ * 스텝 1: TopAppBar를 만들고 title 항목을 채워봅시다.
+ * 스텝 2: navigationIcon 파라미터를 채워봅시다. IconButton을 만들고 자식으로 Icon을 넣읍시다.
+  아이콘은 Icons.Filled.ArrowBack을 채웁시다. onClick은 비워둡시다.
+
+ * 스텝 3: actions를 추가해봅시다. Icons.Filled의 여러 아이콘을 이용해봅시다.
+ * 스텝 4: TopAppBar content 파라미터 버전을 만들어봅시다.
