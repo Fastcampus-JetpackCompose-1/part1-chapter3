@@ -158,6 +158,17 @@ contentDescription에 엔텔로프 캐년이라고 넣읍시다.
 
 스텝 4: AsyncImage를 이용해봅니다. model에 주소를 적으면 됩니다.
 
+## Compose Card 예제 (part4-chapter3-12)
+
+[part4-chapter3-12](part4-chapter3-12) 디렉토리를 Android Studio에서 오픈하세요.
+
+![Compose Card 예](./screenshots/card.png)
+
+ * 스텝 1: `AsyncImage`, `Spacer`, `Column`, `Text`로 레이아웃을 만들어보세요.
+ * 스텝 2: `AsyncImage`에는 `placeholder`를 지정하고, `contentScale`을
+   `ContentScale.Crop`으로 설정합시다.
+   `clip(CircleShape)`로 둥근 외양을 만들어 봅시다.
+
 ## Compose Checkbox 예제 (part4-chapter3-13)
 
 [part4-chapter3-13](part4-chapter3-13) 디렉토리를 Android Studio에서 오픈하세요.
