@@ -194,3 +194,22 @@ contentDescription에 엔텔로프 캐년이라고 넣읍시다.
 
  * 스텝 3: actions를 추가해봅시다. Icons.Filled의 여러 아이콘을 이용해봅시다.
  * 스텝 4: TopAppBar content 파라미터 버전을 만들어봅시다.
+
+## Compose Slot 예제 (part4-chapter3-16)
+
+[part4-chapter3-16](part4-chapter3-16) 디렉토리를 Android Studio에서 오픈하세요.
+
+![Compose Slot 예](./screenshots/slot.png)
+
+ * 스텝 1: `Row`를 `@Composable` 함수로 분리합시다. `checked`의 값,
+  `Text`의 `text`를 인자로 전달합시다.
+
+ * 스텝 2: `@Composable` 함수에서 `@Composable () -> Unit` 타입으로
+ `content`를 받아옵시다. `Row`의 `Text`를 뺴고 `content()`를 넣읍시다.
+ `Row`에 `Modifier.clickable`를 넣어 전체를 클릭가능하게 합시다.
+
+ * 스텝 3: `content`의 타입을 `@Composable RowScope.() -> Unit`로
+ 바꿉시다. 이렇게 다른 콤포저블 컨텐트를 넣는 방식을 Slot API라 합니다.
+
+ * 스텝 4: 상태를 바꾸는 람다를 `@Composable` 함수의 인자로 뺍시다.
+ 인자에서 MutableState대신 boolean 값으로 변경합시다.
