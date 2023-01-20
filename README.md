@@ -233,3 +233,14 @@ contentDescription에 엔텔로프 캐년이라고 넣읍시다.
 
  * 스텝 1: `topBar`를 `TopAppBar`로 채워 봅시다.
  * 스텝 2: 아래에 CheckBoxWithContent를 넣어봅시다.
+
+## Compose Catalog 예제 (part4-chapter3-18)
+
+[part4-chapter3-18](part4-chapter3-18) 디렉토리를 Android Studio에서 오픈하세요.
+
+![Compose Catalog 예 1](./screenshots/catalog1.png)
+
+![Compose Catalog 예 2](./screenshots/catalog2.png)
+
+ * 스텝 1: `catalog1.png`를 참고해 카드 레이아웃을 완성하세요.
+ * 스텝 2: 스텝 2: `items(itemList)`를 이용해 Item을 반복해서 컬럼에 추가하세요.
