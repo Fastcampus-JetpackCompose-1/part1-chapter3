@@ -34,11 +34,29 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+@Composable
+fun CheckBoxWithContent(
+    checked: Boolean,
+    toggleState: () -> Unit,
+    content: @Composable RowScope.() -> Unit
+) {
+    Row(
+        verticalAlignment = Alignment.CenterVertically,
+        modifier = Modifier.clickable { toggleState() }
+    ) {
+        Checkbox(
+            checked = checked,
+            onCheckedChange = { toggleState() },
+        )
+        content()
+    }
+}
+
 // 스텝 1: `Row`를 `@Composable` 함수로 분리합시다.
 // `checked`의 값, `Text`의 `text`를 인자로 전달합시다.
 
 //@Composable
-//fun checkboxWithText(checked: MutableState<Boolean>, text: String) {
+//fun CheckBoxWithContent(checked: MutableState<Boolean>, text: String) {
 //    Row(verticalAlignment = Alignment.CenterVertically) {
 //        Checkbox(
 //            checked = checked.value,
@@ -56,7 +74,7 @@ class MainActivity : ComponentActivity() {
 // `Row`에 `Modifier.clickable`를 넣어 전체를 클릭가능하게 합시다.
 
 //@Composable
-//fun checkBoxWithContent(
+//fun CheckBoxWithContent(
 //    checked: MutableState<Boolean>,
 //    content: @Composable () -> Unit
 //) {
@@ -76,7 +94,7 @@ class MainActivity : ComponentActivity() {
 // 바꿉시다. 이렇게 다른 콤포저블 컨텐트를 넣는 방식을 Slot API라 합니다.
 
 //@Composable
-//fun checkBoxWithContent(
+//fun CheckBoxWithContent(
 //    checked: MutableState<Boolean>,
 //    content: @Composable RowScope.() -> Unit
 //) {
@@ -124,23 +142,23 @@ fun SlotEx() {
 //        }
 
         // 스텝 2
-//        checkboxWithText(checked1, "텍스트 1")
-//        checkboxWithText(checked2, "텍스트 2")
+//        CheckBoxWithContent(checked1, "텍스트 1")
+//        CheckBoxWithContent(checked2, "텍스트 2")
 
         // 스텝 3
-//        checkBoxWithContent(checked = checked1) {
+//        CheckBoxWithContent(checked = checked1) {
 //            Text(
 //                text = "텍스트 1"
 //            )
 //        }
-//        checkBoxWithContent(checked = checked2) {
+//        CheckBoxWithContent(checked = checked2) {
 //            Text(
 //                text = "텍스트 2"
 //            )
 //        }
 
         // 스텝 4
-        checkBoxWithContent(
+        CheckBoxWithContent(
             checked = checked1.value,
             toggleState = { checked1.value = !checked1.value }
         ) {
@@ -148,7 +166,7 @@ fun SlotEx() {
                 text = "텍스트 1"
             )
         }
-        checkBoxWithContent(
+        CheckBoxWithContent(
             checked = checked2.value,
             toggleState = { checked2.value = !checked2.value }
         ) {
