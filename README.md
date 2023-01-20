@@ -213,3 +213,12 @@ contentDescription에 엔텔로프 캐년이라고 넣읍시다.
 
  * 스텝 4: 상태를 바꾸는 람다를 `@Composable` 함수의 인자로 뺍시다.
  인자에서 MutableState대신 boolean 값으로 변경합시다.
+
+## Compose Scaffold 예제 (part4-chapter3-17)
+
+[part4-chapter3-17](part4-chapter3-17) 디렉토리를 Android Studio에서 오픈하세요.
+
+![Compose Scaffold 예](./screenshots/scaffold.png)
+
+ * 스텝 1: `topBar`를 `TopAppBar`로 채워 봅시다.
+ * 스텝 2: 아래에 CheckBoxWithContent를 넣어봅시다.
