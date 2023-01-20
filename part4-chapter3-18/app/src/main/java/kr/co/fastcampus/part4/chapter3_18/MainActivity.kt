@@ -4,14 +4,20 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.annotation.DrawableRes
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.material.Card
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
+import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import kr.co.fastcampus.part4.chapter3_18.R.drawable
@@ -40,6 +46,23 @@ fun Item(itemData: ItemData) {
         elevation = 8.dp,
         modifier = Modifier.padding(16.dp)
     ) {
+        Column(
+            modifier = Modifier.padding(8.dp)
+        ) {
+            Image(
+                painter = painterResource(id = itemData.imageId),
+                contentDescription = itemData.title,
+            )
+            Spacer(modifier = Modifier.padding(8.dp))
+            Text(
+                text = itemData.title,
+                style = MaterialTheme.typography.h4
+            )
+            Spacer(modifier = Modifier.padding(8.dp))
+            Text(
+                text = itemData.description
+            )
+        }
     }
 }
 
@@ -62,6 +85,9 @@ fun CatalogEx(itemList: List<ItemData>) {
     LazyColumn {
         // 스텝 2: `items(itemList)`를 이용해 Item을 반복해서
         // 컬럼에 추가하세요.
+        items(itemList) { item ->
+            Item(item)
+        }
     }
 }
 
