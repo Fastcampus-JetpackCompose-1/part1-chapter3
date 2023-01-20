@@ -48,24 +48,6 @@ class MainActivity : ComponentActivity() {
 // 인자에서 MutableState대신 boolean 값으로 변경합시다.
 
 @Composable
-fun checkBoxWithContent(
-    checked: Boolean,
-    toggleState: () -> Unit,
-    content: @Composable RowScope.() -> Unit
-) {
-    Row(
-        verticalAlignment = Alignment.CenterVertically,
-        modifier = Modifier.clickable { toggleState() }
-    ) {
-        Checkbox(
-            checked = checked,
-            onCheckedChange = { toggleState() },
-        )
-        content()
-    }
-}
-
-@Composable
 fun SlotEx() {
     val checked1 = remember { mutableStateOf(false) }
     val checked2 = remember { mutableStateOf(false) }
