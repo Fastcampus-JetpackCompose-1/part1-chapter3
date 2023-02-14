@@ -52,7 +52,7 @@ fun RowEx() {
 //        Text(text = "세 번째!")
 //    }
 
-    // 스텝 3: Row의 height를 200dp 정도로 설정합시다.
+    // 스텝 3: Row의 width를 200dp 정도로 설정합시다.
     // Row에 horizontalArrangement에 Arrangement.Center를
     // 설정해봅시다. Start, End, SpaceAround, SpaceBetween
     // SpaceEvenly를 설정해봅시다.
