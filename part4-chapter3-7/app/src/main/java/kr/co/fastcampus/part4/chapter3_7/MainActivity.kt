@@ -37,7 +37,7 @@ fun RowEx() {
     // 스텝 2: Row에 verticalAlignment를 설정해봅시다.
     // Text에 align을 사용할 때와 쓰이는 값이 같습니다.
 
-    // 스텝 3: Row의 height를 200dp 정도로 설정합시다.
+    // 스텝 3: Row의 width를 200dp 정도로 설정합시다.
     // Row에 horizontalArrangement에 Arrangement.Center를
     // 설정해봅시다. Start, End, SpaceAround, SpaceBetween
     // SpaceEvenly를 설정해봅시다.
