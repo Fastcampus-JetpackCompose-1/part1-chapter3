@@ -1,12 +1,12 @@
-# Part4 Chapter3
+# Part1 Chapter3
 
-Part4 Chapter3의 예제와 실습을 모두 담고 있습니다.
+Part1 Chapter3의 예제와 실습을 모두 담고 있습니다.
 
 [최종본](../../tree/final)과 비교해보세요.
 
-## Compose Text 실습코드 (part4-chapter3-2)
+## Compose Text 실습코드 (part1-chapter3-2)
 
-[part4-chapter3-2](part4-chapter3-2) 디렉토리를 Android Studio에서 오픈하세요.
+[part1-chapter3-2](part1-chapter3-2) 디렉토리를 Android Studio에서 오픈하세요.
 
 ![Compose Text 예](./screenshots/text.png)
 
@@ -22,9 +22,9 @@ Compose Text 실습코드
  * 스텝 8: textDecoration에 TextDecoration.Underline을 추가합시다.
  * 스텝 9: textAlign을 TextAlign.Center로 지정합니다.
 
-## Compose Button 예제 (part4-chapter3-3)
+## Compose Button 예제 (part1-chapter3-3)
 
-[part4-chapter3-3](part4-chapter3-3) 디렉토리를 Android Studio에서 오픈하세요.
+[part1-chapter3-3](part1-chapter3-3) 디렉토리를 Android Studio에서 오픈하세요.
 
 ![Compose Button 예](./screenshots/button.png)
 
@@ -38,9 +38,9 @@ Compose Button 예제
  * 스탭 6: shape를 CircleShape로 지정합시다.
  * 스탭 7: contentPadding에 PaddingValues를 설정합시다.
 
-## Compose Modifier 예제 (part4-chapter3-4)
+## Compose Modifier 예제 (part1-chapter3-4)
 
-[part4-chapter3-4](part4-chapter3-4) 디렉토리를 Android Studio에서 오픈하세요.
+[part1-chapter3-4](part1-chapter3-4) 디렉토리를 Android Studio에서 오픈하세요.
 
 ![Compose Modifier 예](./screenshots/modifier.png)
 
@@ -56,9 +56,9 @@ Compose Modifier 예제
  * 스탭 8: Button에 enabled를 false로 설정하고, Text의 modifier에 clickable을 넣어봅시다.
  * 스탭 9: Text의 modifier에 offset를 설정하고 x 파라미터를 설정합니다.
 
-## Compose Surface 예제 (part4-chapter3-5)
+## Compose Surface 예제 (part1-chapter3-5)
 
-[part4-chapter3-5](part4-chapter3-5) 디렉토리를 Android Studio에서 오픈하세요.
+[part1-chapter3-5](part1-chapter3-5) 디렉토리를 Android Studio에서 오픈하세요.
 
 ![Compose Surface 예](./screenshots/surface.png)
 
@@ -73,9 +73,9 @@ MaterialTheme.colors에서 primary, error, background, surface, secondary 등을
 
 contentColor가 자동으로 선택됩니다.
 
-## Compose Box 예제 (part4-chapter3-6)
+## Compose Box 예제 (part1-chapter3-6)
 
-[part4-chapter3-6](part4-chapter3-6) 디렉토리를 Android Studio에서 오픈하세요.
+[part1-chapter3-6](part1-chapter3-6) 디렉토리를 Android Studio에서 오픈하세요.
 
 ![Compose Box 예](./screenshots/box.png)
 
@@ -87,9 +87,9 @@ Compose Box 예제
  * 그리고 첫번째 자식 Box의 사이즈를 matchParentSize()로 설정해봅시다. 
  * 다음에는 fillMaxSize()로 설정해봅시다.
 
-## Compose Row 예제 (part4-chapter3-7)
+## Compose Row 예제 (part1-chapter3-7)
 
-[part4-chapter3-7](part4-chapter3-7) 디렉토리를 Android Studio에서 오픈하세요.
+[part1-chapter3-7](part1-chapter3-7) 디렉토리를 Android Studio에서 오픈하세요.
 
 ![Compose Row 예](./screenshots/row.png)
 
@@ -103,9 +103,9 @@ Compose Row 예제
    각 항목의 weight 값을 바꾸어 보세요.
  * 스텝 5: Text 대신 Icon을 하나 넣어봅시다.
 
-## Compose Column 예제 (part4-chapter3-8)
+## Compose Column 예제 (part1-chapter3-8)
 
-[part4-chapter3-8](part4-chapter3-8) 디렉토리를 Android Studio에서 오픈하세요.
+[part1-chapter3-8](part1-chapter3-8) 디렉토리를 Android Studio에서 오픈하세요.
 
 ![Compose Column 예](./screenshots/column.png)
 
@@ -115,9 +115,9 @@ Compose Column 예제
  * 스텝 2: Column에 verticalArrangement를 지정해봅시다. SpaceAround, SpaceEvenly, SpaceBetween도 해봅시다.
  * 스텝 3: Text에 Modifier.align을 사용해 봅시다.
 
-## Compose Box with Constraints 예제 (part4-chapter3-9)
+## Compose Box with Constraints 예제 (part1-chapter3-9)
 
-[part4-chapter3-9](part4-chapter3-9) 디렉토리를 Android Studio에서 오픈하세요.
+[part1-chapter3-9](part1-chapter3-9) 디렉토리를 Android Studio에서 오픈하세요.
 
 ![Compose Box with Constraints 예](./screenshots/box-with-constraints.png)
 
@@ -129,9 +129,9 @@ Compose Box with Constraints 예제
  * 스텝 3: maxHeight 값이 150dp가 넘을 때만 추가로 텍스트를 출력해봅시다.
  * 스텝 4: Column에 width를 지정해서 제한해 봅시다.
 
-## Compose Image 예제 (part4-chapter3-10)
+## Compose Image 예제 (part1-chapter3-10)
 
-[part4-chapter3-10](part4-chapter3-10) 디렉토리를 Android Studio에서 오픈하세요.
+[part1-chapter3-10](part1-chapter3-10) 디렉토리를 Android Studio에서 오픈하세요.
 
 ![Compose Image 예](./screenshots/image.png)
 
@@ -141,9 +141,9 @@ Compose Image 예제
 contentDescription에 엔텔로프 캐년이라고 넣읍시다.
  * 스텝 2: 두 번째 Image를 만들어봅시다. imageVector에 Icons.Filled.Settings를 설정해봅시다.
 
-## Compose Coil 예제 (part4-chapter3-11)
+## Compose Coil 예제 (part1-chapter3-11)
 
-[part4-chapter3-11](part4-chapter3-11) 디렉토리를 Android Studio에서 오픈하세요.
+[part1-chapter3-11](part1-chapter3-11) 디렉토리를 Android Studio에서 오픈하세요.
 
 ![Compose Coil 예](./screenshots/coil.png)
 
@@ -154,13 +154,13 @@ contentDescription에 엔텔로프 캐년이라고 넣읍시다.
 스텝 2: uses-permission에 android.permission.INTERNET를 추가합니다.
 
 스텝 3: rememberImagePainter를 이용해 Image의 painter를 설정합니다. (Compose 한국어 문서의 추천, but Deprecated)
-이미지 URI: https://raw.githubusercontent.com/Fastcampus-Android-Lecture-Project-2023/part4-chapter3/main/part-chapter3-10/app/src/main/res/drawable-hdpi/wall.jpg
+이미지 URI: https://raw.githubusercontent.com/Fastcampus-Android-Lecture-Project-2023/part1-chapter3/main/part-chapter3-10/app/src/main/res/drawable-hdpi/wall.jpg
 
 스텝 4: AsyncImage를 이용해봅니다. model에 주소를 적으면 됩니다.
 
-## Compose Card 예제 (part4-chapter3-12)
+## Compose Card 예제 (part1-chapter3-12)
 
-[part4-chapter3-12](part4-chapter3-12) 디렉토리를 Android Studio에서 오픈하세요.
+[part1-chapter3-12](part1-chapter3-12) 디렉토리를 Android Studio에서 오픈하세요.
 
 ![Compose Card 예](./screenshots/card.png)
 
@@ -169,9 +169,9 @@ contentDescription에 엔텔로프 캐년이라고 넣읍시다.
    `ContentScale.Crop`으로 설정합시다.
    `clip(CircleShape)`로 둥근 외양을 만들어 봅시다.
 
-## Compose Checkbox 예제 (part4-chapter3-13)
+## Compose Checkbox 예제 (part1-chapter3-13)
 
-[part4-chapter3-13](part4-chapter3-13) 디렉토리를 Android Studio에서 오픈하세요.
+[part1-chapter3-13](part1-chapter3-13) 디렉토리를 Android Studio에서 오픈하세요.
 
 ![Compose Checkbox 예](./screenshots/checkbox.png)
 
@@ -181,9 +181,9 @@ contentDescription에 엔텔로프 캐년이라고 넣읍시다.
  * 스텝 4: delegated properties로 변경해봅시다.
  * 스텝 5: destruction으로 상태를 받아서 사용해봅시다.
 
-## Compose TextField 예제 (part4-chapter3-14)
+## Compose TextField 예제 (part1-chapter3-14)
 
-[part4-chapter3-14](part4-chapter3-14) 디렉토리를 Android Studio에서 오픈하세요.
+[part1-chapter3-14](part1-chapter3-14) 디렉토리를 Android Studio에서 오픈하세요.
 
 ![Compose Field 예](./screenshots/textfield.png)
 
@@ -193,9 +193,9 @@ contentDescription에 엔텔로프 캐년이라고 넣읍시다.
  * 스텝 4: TextField와 Text 사이에 Spacer를 넣어 8.dp 간격을 줍시다.
  * 스텝 5: TextField를 OutlinedTextField로 변경해봅시다.
 
-## Compose TopAppBar 예제 (part4-chapter3-15)
+## Compose TopAppBar 예제 (part1-chapter3-15)
 
-[part4-chapter3-15](part4-chapter3-15) 디렉토리를 Android Studio에서 오픈하세요.
+[part1-chapter3-15](part1-chapter3-15) 디렉토리를 Android Studio에서 오픈하세요.
 
 ![Compose TopAppBar 예](./screenshots/topappbar.png)
 
@@ -206,9 +206,9 @@ contentDescription에 엔텔로프 캐년이라고 넣읍시다.
  * 스텝 3: actions를 추가해봅시다. Icons.Filled의 여러 아이콘을 이용해봅시다.
  * 스텝 4: TopAppBar content 파라미터 버전을 만들어봅시다.
 
-## Compose Slot 예제 (part4-chapter3-16)
+## Compose Slot 예제 (part1-chapter3-16)
 
-[part4-chapter3-16](part4-chapter3-16) 디렉토리를 Android Studio에서 오픈하세요.
+[part1-chapter3-16](part1-chapter3-16) 디렉토리를 Android Studio에서 오픈하세요.
 
 ![Compose Slot 예](./screenshots/slot.png)
 
@@ -225,18 +225,18 @@ contentDescription에 엔텔로프 캐년이라고 넣읍시다.
  * 스텝 4: 상태를 바꾸는 람다를 `@Composable` 함수의 인자로 뺍시다.
  인자에서 MutableState대신 boolean 값으로 변경합시다.
 
-## Compose Scaffold 예제 (part4-chapter3-17)
+## Compose Scaffold 예제 (part1-chapter3-17)
 
-[part4-chapter3-17](part4-chapter3-17) 디렉토리를 Android Studio에서 오픈하세요.
+[part1-chapter3-17](part1-chapter3-17) 디렉토리를 Android Studio에서 오픈하세요.
 
 ![Compose Scaffold 예](./screenshots/scaffold.png)
 
  * 스텝 1: `topBar`를 `TopAppBar`로 채워 봅시다.
  * 스텝 2: 아래에 CheckBoxWithContent를 넣어봅시다.
 
-## Compose Catalog 예제 (part4-chapter3-18)
+## Compose Catalog 예제 (part1-chapter3-18)
 
-[part4-chapter3-18](part4-chapter3-18) 디렉토리를 Android Studio에서 오픈하세요.
+[part1-chapter3-18](part1-chapter3-18) 디렉토리를 Android Studio에서 오픈하세요.
 
 ![Compose Catalog 예 1](./screenshots/catalog1.png)
 
